@@ -1,0 +1,651 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #1d1d1d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #D8D8D8;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+
+    /*---------------------------Previlegy--------------*/
+
+    .prev-block {
+        width: 340px;
+    }
+
+    .prev-container {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    /*---------------------------WELCOME----------------------*/
+
+    .general-welcome{
+        padding-top: 90px;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .about-descr{
+        text-align: center;
+    }
+
+    .pic-welcome{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-descr{
+        margin-top: 0;
+    }
+
+    .about-descr h2{
+        padding: 0 140px;
+    }
+    
+    /*-----------------------------------DEPEND-------------------------------*/
+
+    .depend{
+        text-transform: uppercase;
+        padding: 90px 0 50px 0;
+    }
+
+    .tittle-depend{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .pic-depend img{
+        width: 100%;
+    }
+    
+
+    /*-------------------------------WHY CHOOSE------------------------------*/
+
+    .why-choose-container{
+        justify-content: center;
+    }
+
+    .choose{
+        width: 500px;
+    }
+
+    /*-------------------------------WARRANTY------------------------------*/
+
+
+    .general-warranties{
+        flex-direction: column;
+    }
+
+    .pic-warranties img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*-----------------------------BRANDS---------------------------*/
+
+    .brands-block{
+        width: 100%;
+    }
+
+    .banners{
+        flex-wrap: wrap;
+    }
+
+    .block-banner{
+        width: 100%;
+    }
+
+
+    .areas-general{
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+
+
+    .general-blog{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .block-footer{
+        display: none;
+    }
+
+    .general-footer{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .blog-articles:nth-child(3){
+        display: none;
+    }
+
+    .general-about{
+        text-align: center;
+        padding-top: 70px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .general-about h2{
+        margin-bottom: 30px;
+    }
+
+
+    .blog {
+        padding: 80px 0;
+    }
+
+    .inner-page{
+        padding: 80px 0;
+    }
+
+    .block-social-footer {
+        justify-content: center;
+    }
+
+    .general-about{
+        padding-top: 70px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 70px;
+    }
+
+    .review-block {
+        width: 100%;
+    }
+
+    .testimonials {
+        padding: 90px 0;
+    }
+
+    .general-blog {
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        gap: 30px;
+    }
+
+    .price-descr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price-descr span{
+        line-height: 20px;
+    }
+
+    .photo-price {
+        height: 400px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-device-width: 340px) and (max-device-width: 767px){
+
+    
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #1d1d1d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #D8D8D8;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    .btn-header{
+        flex-wrap: wrap;
+    }
+
+    .btn-call{
+        width: 100%;
+    }
+
+    .btn-book{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 45px;
+        line-height: 54px;
+        padding-bottom: 20px;
+    }
+
+    .slider{
+        padding-top: 200px;
+        padding-bottom: 170px;
+        max-width: 100%;
+        background: url('../image/slider.jpg') no-repeat center top / cover;
+    }
+
+    /*---------------------------Previlegy--------------*/
+
+    .prev-block {
+        width: 340px;
+    }
+
+    .prev-container {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    /*---------------------------WELCOME----------------------*/
+
+    .general-welcome{
+        padding-top: 90px;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .about-descr{
+        text-align: center;
+    }
+
+    .pic-welcome img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic-welcome{
+        padding-bottom: 20px;
+    }
+
+    .about-descr{
+        margin-top: 0;
+    }
+
+    .about-descr h2{
+        padding: 0;
+    }
+
+    .tittle-appliance{
+        text-align: center;
+        padding: 0;
+    }
+    
+
+    .btn-appliance{
+        flex-wrap: wrap;
+    }
+
+
+    .appliance {
+        padding: 80px 0;
+    }
+
+
+    /*-----------------------------------DEPEND-------------------------------*/
+
+    .depend{
+        text-transform: uppercase;
+        padding: 70px 0 50px 0;
+    }
+
+    .tittle-depend span{
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 1.6px;
+        font-weight: 700;
+        color: #CBCBCB;
+    }
+
+    .tittle-depend{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .pic-depend img{
+        width: 100%;
+    }
+    
+
+    /*-------------------------------WHY CHOOSE------------------------------*/
+
+    .why-choose-container{
+        justify-content: center;
+    }
+
+    .choose{
+        width: 500px;
+    }
+
+    .tittle-why-us {
+        padding: 0;
+    }
+
+    .why-choose {
+        padding: 80px 0;
+        max-width: 100%;
+    }
+
+    /*-------------------------------WARRANTY------------------------------*/
+
+
+    .general-warranties{
+        flex-direction: column;
+    }
+
+    .pic-warranties img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-warranties{
+        flex-wrap: wrap;
+    }
+
+    .warranties-block{
+        padding: 90px 0 50px 0;
+    }
+
+    /*-----------------------------BRANDS---------------------------*/
+
+    .brands {
+        padding: 80px 0;
+    }
+
+    .brands-block{
+        width: 100%;
+    }
+
+    .banners{
+        flex-wrap: wrap;
+    }
+
+    .block-banner{
+        width: 100%;
+    }
+
+
+    .discount-services {
+        padding: 70px 0;
+        background: #121212;
+    }
+
+    .areas {
+        padding: 70px 0;
+    }
+
+    .blog{
+        padding: 70px 0;
+    }
+
+
+    .areas-general{
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+
+
+    .general-blog{
+        gap: 50px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .discont-container{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .block-footer{
+        display: none;
+    }
+
+    .btn-discount-services{
+        flex-wrap: wrap;
+    }
+
+
+    .general-footer{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .block-social-footer{
+        justify-content: center;
+    }
+
+    .general-about{
+        padding-top: 70px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 70px;
+    }
+
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .general-about h2{
+        margin-bottom: 30px;
+    }
+
+    .pic-about-inner{
+        width: 100%;
+    }
+
+    .pic-page-inner{
+        width: 100%;
+        height: 300px;
+        background: url('../image/washing-machine-pic.jpg') no-repeat center top / cover;
+    }
+
+    .pic-page-inner-refr{
+        width: 100%;
+        height: 300px;
+        background: url('../image/refr-page-pic.jpg') no-repeat center top / cover;
+    }
+
+    .pic-page-inner-range{
+        width: 100%;
+        height: 300px;
+        background: url('../image/range-page-pic.jpg') no-repeat center top / cover;
+    }
+
+
+    .inner-page{
+        padding: 70px 0;
+    }
+
+    .stick-block-phone{
+        display: block;
+    }
+
+    .btns-stick {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-header{
+        display: none;
+    }
+
+    .general-about-inner {
+        margin-top: 30px;
+    }
+
+    .blog-inner{
+        padding: 70px 0;
+        background-color: #141414;
+    }
+
+    .blog-inner h2{
+        margin-bottom: 40px;
+    }
+
+    .item-category {
+        width: 100%;
+    }
+
+    .general-about-inner-block {
+        padding-top: 70px;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+    .pic-services img{
+        width: 100%;
+    }
+
+    .inner-page-services {
+        padding: 60px 0 70px;
+    }
+
+    .contacts-btn-fix {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .problen-fix {
+        background-color: #141414;
+        padding: 70px 0;
+    }
+
+    .pic-about-inner img{
+        width: 100%;
+    }
+
+    .btns-price{
+        flex-wrap: wrap;
+    }
+
+    .block-price {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .photo-price img{
+        width: 100%;
+    }
+
+    .price-descr h3{
+        line-height: 34px;
+    }
+
+
+}
