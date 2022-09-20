@@ -388,12 +388,9 @@ h1{
     color: #BD9B60;
 }
 
+
 .item{
-    display: flex;
-    flex-direction: column;
     width: 277px;
-    justify-content: center;
-    align-self: flex-end;
     height: 297px;
     text-align: center;
     background: linear-gradient(135.47deg, #313131 2.68%, #171717 71.16%);
