@@ -1169,6 +1169,18 @@ h1{
     background: url('../image/range-page-pic.jpg') no-repeat center top / cover;
 }
 
+canvas{
+    display: flex;
+    position: absolute;
+    /* left: 1000px; */
+    right: 105px;
+    top: 170px;
+}
+
+.pic-warranties{
+    position: relative;
+}
+
 
 
 
